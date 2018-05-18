@@ -1,0 +1,33 @@
+
+
+* {
+    font-family: "Times New Roman", Times, serif;
+}
+.nav-btn:hover {
+
+	background-color: grey;
+	font-weight: bold;
+}
+.nav-btn {
+	color: white;
+}
+
+body{
+	padding-top: 50px;
+}
+
+/*
+
+#headerWrapper{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 41.5vw;
+	width: 100vw;
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: top-center;
+	background-size: 100% 100vw;
+}
+*/
