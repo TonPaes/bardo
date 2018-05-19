@@ -31,7 +31,7 @@
 	  					<?php
 	  						$query = "SELECT * FROM categories";
 	  						$result = $db->query($query);
-	  						while($cat = mysqli_fetch_assoc($result))
+	  						while($cat = mysqli_fetch_assoc($result)):
 	  					 ?>
 	  					<button type="button" class="btn btn-lg btn-secondary">
 	  						<img src=<?php echo $cat['icon'] ?> style="float:left;width:25px;height:25px">
