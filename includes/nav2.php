@@ -16,7 +16,7 @@
 					<li><a href="#" class="nav-btn" > <img src="images/icons/icon-clarinet.png" style=" float:left; width:25px; height:25px"> Palhetas</a></li>
 					<li><a href="#" class="nav-btn"> <img src="images/icons/icon-trumpet.png" style="float:left;width:25px;height:25px">
 				    		 Metais</a></li>
-					<li><a href="#" class="nav-btn"> <img src="images/icons/icon-drum.png" style="float:left;width:25px;height:25px"> Percursão</a></li>
+					<li><a href="#" class="nav-btn"> <img src="images/icons/icon-drum.png" style="float:left;width:25px;height:25px"> Percurssão</a></li>
 				</u>
 				<ul class="nav navbar-nav navbar-right " style="font-size: 20px; padding-left: 10vw; padding-top: 10px " >
 					<a href="carrinho.php" style=" color: white; font-weight:;"  > <img src="images/icons/icon-cart.png" style="float:left;width:25px;height:25px; ">Carrinho: R$2150,00 </a>

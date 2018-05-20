@@ -16,7 +16,7 @@
 					<li><a href="#" class="nav-btn" > <img src="images/icons/icon-clarinet.png" style=" float:left; width:1.8vw; height:1.8vw"> Palhetas</a></li>
 					<li><a href="#" class="nav-btn"> <img src="images/icons/icon-trumpet.png" style="float:left;width:1.8vw;height:1.8vw">
 				    		 Metais</a></li>
-					<li><a href="#" class="nav-btn"> <img src="images/icons/icon-drum.png" style="float:left;width:1.8vw;height:1.8vw"> Percursão</a></li>
+					<li><a href="#" class="nav-btn"> <img src="images/icons/icon-drum.png" style="float:left;width:1.8vw;height:1.8vw"> Percurssão</a></li>
 				</u>
 				<ul class="nav navbar-nav navbar-right " style="font-size: 20px; padding-left: 10vw" >
 					<form class="navbar-form navbar-right" action="#">

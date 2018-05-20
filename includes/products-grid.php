@@ -64,16 +64,16 @@
 				<h4  style="padding-left: 2vw; color: grey" > Grade - Violinos - Ascendente - Preço Min. R$2000,00</h4>
 				</div>
 				<?php
-					$sql = "SELECT * FROM products WHERE categories = 'violino'";
+					$sql = "SELECT * FROM products WHERE subcat = 'string'";
 					$result = $db->query($sql);
 					while($product = mysqli_fetch_assoc($result)) :
 		 		?>
 				<div class="col-md-4">
 					<div class="thumbnail" >
-						<img src=<?php echo $product['image']; ?> style="float:left;width:20vw;height:18vw">
+						<img src="images/products/<?php echo $product['id']; ?>.jpg" style="float:left;width:17vw;height:17vw">
 						<div class="caption">
 							<h3 style=" color: #586262;"><?php echo $product['name']; ?> </h4>
-							<h4 style=" color:grey;"><?php echo $product['price']; ?></h4>
+							<h4 style=" color:grey;">R$<?php echo $product['price']; ?></h4>
 							<h5 style=" color:grey;">Disponível: 1</h5>
 							<button type="button" class="btn btn-sm btn-block btn-success" data-toggle="modal" data-target= #<?php echo $product['id']?> >
 							<h4>Detalhes</h4>
@@ -92,23 +92,23 @@
 								<div class="container-fluid" >
 									<div class="row">
 										<div class="col-md-5 col-sm-12" >
-											<img src=<?php echo $product['image']; ?> style="float:left;width:380px;height:400px">
+											<img src="images/products/<?php echo $product['id']; ?>.jpg" style="float:left;width:100%;height:100%">
 										</div>
 										<div  class="col-md-7 col-sm-12 "  style="padding-left: 10vw" >
 											<h2><?php echo $product['title']; ?></h2>
 											<h4 style=" color:grey;"  > Usado </h4>
 											<hr>
-											<h2 style=" color:#006788;"><?php echo $product['price']; ?></h2>
+											<h2 style=" color:#006788;">R$<?php echo $product['price']; ?></h2>
 											<h4 style="color:#309930 " ><?php printf("12 x R$ %.2f", $product['price']/12) ?> </h4>
 											<h4 style="color:#309930 " >Frete grátis! </h4>
 											<hr>
 											<button type="button" class="btn btn-primary" style="font-weight: bolder" ><h4>Comprar agora!</h4></button>
-											<button type="button" class="btn btn-outline-primary" style="font-weight: bolder" > <h4>Adcionar ao carrinho</h4></button>
+											<button type="button" class="btn btn-outline-primary" style="font-weight: bolder" > <h4>Adicionar ao carrinho</h4></button>
 										</div>
 									</div>
 									<hr>
 									<div>
-										<h2>Informações Adcionais:</h2>
+										<h2>Informações Adicionais:</h2>
 										<h4>
 											<?php echo $product['description']; ?>
 										</h4>
