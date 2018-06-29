@@ -6,9 +6,9 @@
 	 		</div>
 	 		<div class=" col-md-0 col-xs-5.5 " ></div>
 	 		<div class="col-md-5 col-xs-12 " style="padding-top: 10vw; padding-bottom: 5vw ; font-size:35px; padding-left: 3.5vw" >
-	 			Content goes here TALK <br>
-	 			So much things that have to be talked. <br>
-	 			SO what you think aboult the things<br>
+	 			Loja de instrumentos músicais.<br>
+	 			 Music shop.<br>
+	 			Magasin de musique.<br>
 	 		</div>
 
 	</div>

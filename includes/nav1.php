@@ -12,16 +12,16 @@
 			</div>
 			<div class="collapse navbar-collapse navbar-right " id="myNavbar">
 				<ul class="nav navbar-nav" style="font-size: 20px; padding-right: 5vw; color: white;" >
-					<li> <a href="#" class="nav-btn" > <img src="images/icons/icon-violin.png" style="float:left;width:1.8vw;height:1.8vw">Cordas</a></li>
-					<li><a href="#" class="nav-btn" > <img src="images/icons/icon-clarinet.png" style=" float:left; width:1.8vw; height:1.8vw"> Palhetas</a></li>
-					<li><a href="#" class="nav-btn"> <img src="images/icons/icon-trumpet.png" style="float:left;width:1.8vw;height:1.8vw">
+					<li> <a href="products.php?search=Cordas" class="nav-btn" > <img src="images/icons/icon-violin.png" style="float:left;width:1.8vw;height:1.8vw">Cordas</a></li>
+					<li><a href="products.php?search=Palhetas" class="nav-btn" > <img src="images/icons/icon-clarinet.png" style=" float:left; width:1.8vw; height:1.8vw"> Palhetas</a></li>
+					<li><a href="products.php?search=Metal" class="nav-btn"> <img src="images/icons/icon-trumpet.png" style="float:left;width:1.8vw;height:1.8vw">
 				    		 Metais</a></li>
-					<li><a href="#" class="nav-btn"> <img src="images/icons/icon-drum.png" style="float:left;width:1.8vw;height:1.8vw"> Percurssão</a></li>
+					<li><a href="products.php?search=Percurssão" class="nav-btn"> <img src="images/icons/icon-drum.png" style="float:left;width:1.8vw;height:1.8vw"> Percurssão</a></li>
 				</u>
 				<ul class="nav navbar-nav navbar-right " style="font-size: 20px; padding-left: 10vw" >
-					<form class="navbar-form navbar-right" action="#">
+					<form action="products.php" method="get" class="navbar-form navbar-right" >
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Pesquisar" >
+							<input type="text" name="search" class="form-control" placeholder="Pesquisar" >
 						</div>
 						<button type="submit" class="btn btn-default ">
 							<i class="glyphicon glyphicon-search" style="color: #002255" ></i>

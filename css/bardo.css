@@ -1,8 +1,8 @@
 
 
-* {
+/* {
     font-family: "Times New Roman", Times, serif;
-}
+}*/
 .nav-btn:hover {
 
 	background-color: grey;
@@ -16,7 +16,7 @@ body{
 	padding-top: 50px;
 }
 
-/*
+
 
 #headerWrapper{
 	position: relative;
@@ -30,4 +30,3 @@ body{
 	background-position: top-center;
 	background-size: 100% 100vw;
 }
-*/

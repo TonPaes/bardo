@@ -1,13 +1,16 @@
-<?php include 'includes/head.php' ?>
-	
+
+<?php
+include 'includes/head.php';
+?>
+
 	<!-- NAV BAR-->
 
-<?php include 'includes/nav1.php' ?>	
-	
+<?php include 'includes/nav1.php' ?>
+
 	<!-- CONTENT-->
 
-<?php include 'includes/index-content.php' ?>
-	
+<?php include 'includes/banner.php' ?>
+
 	<!--FOOTER -->
 
 <?php include 'includes/footer.php' ?>

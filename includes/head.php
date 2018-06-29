@@ -10,3 +10,4 @@
 
 </head>
 <body style=" background-color: whitesmoke; " >
+<?php include 'includes/session.php' ?>
